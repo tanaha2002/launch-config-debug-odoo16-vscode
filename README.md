@@ -1,0 +1,1 @@
+# launch-config-debug-odoo16-vscode
