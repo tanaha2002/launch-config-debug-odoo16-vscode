@@ -8,22 +8,19 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "D:\\Odoo16\\python\\python.exe",
             "console": "integratedTerminal",
             "program": "${workspaceRoot}\\odoo-bin",
             "args": [
                 "--config=${workspaceRoot}\\odoo.conf",
             ],
             "cwd": "${workspaceRoot}",
-            "env": {},
-            "envFile": "${workspaceRoot}/.env",
+            "envFile": "${workspaceRoot}\\.env",
         },
         {
             "name": "Odoo - Upgrade",
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "D:\\Odoo16\\python\\python.exe",
             "program": "${workspaceRoot}\\odoo-bin",
             "args": [
                 "--config=${workspaceRoot}\\odoo.conf",
@@ -33,8 +30,7 @@
             "-d", "request",],
             "cwd": "${workspaceFolder}",
             "console": "externalTerminal",
-            "env": {},
-            "envFile": "${workspaceRoot}/.env",
+            "envFile": "${workspaceRoot}\\.env",
         }
     ]
     
